@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Servicios de Acompañante</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        .container {
+            padding: 2rem;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        figure {
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Servicios de Acompañante</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre Mí</a></li>
+            <li><a href="#" role="button">Contactar</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Bienvenido a mis Servicios</h2>
+                    <h3>Tu Compañía Perfecta</h3>
+                </hgroup>
+                <p>Ofrezco servicios de acompañante exclusivos y personalizados para cualquier ocasión. Mi misión es proporcionar una experiencia única y satisfactoria.</p>
+                <figure>
+                    <img src="image1.jpeg" alt="Imagen sensual en el agua" />
+                    <figcaption><a href="#" target="_blank">Ver más</a></figcaption>
+                </figure>
+                <h3>Elegancia y Sofisticación</h3>
+                <p>Con un estilo y una presencia impecable, estaré a tu lado en eventos importantes, cenas de negocios, o simplemente para compartir un momento especial.</p>
+                <figure>
+                    <img src="image2.jpeg" alt="Imagen elegante en el hogar" />
+                    <figcaption><a href="#" target="_blank">Ver más</a></figcaption>
+                </figure>
+                <h3>Confidencialidad y Discreción</h3>
+                <p>La discreción y la confidencialidad son fundamentales en mis servicios. Puedes confiar en que tu privacidad siempre estará protegida.</p>
+                <figure>
+                    <img src="image3.jpeg" alt="Imagen en ropa interior" />
+                    <figcaption><a href="#" target="_blank">Ver más</a></figcaption>
+                </figure>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Contacta Conmigo</h2>
+                    <h3>Reserva una Cita</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="Nombre" aria-label="Nombre" required />
+                    <input type="email" id="email" name="email" placeholder="Correo Electrónico" aria-label="Correo Electrónico" required />
+                    <button type="submit" onclick="event.preventDefault()">Enviar</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small><a href="#">Política de Privacidad</a> • <a href="#">Términos y Condiciones</a></small>
+    </footer>
+</body>
+</html>
